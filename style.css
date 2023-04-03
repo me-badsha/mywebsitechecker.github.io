@@ -1,0 +1,44 @@
+.header{
+    background-color: aliceblue;
+}
+.navbar-nav li a{
+    font-weight: bold;
+}
+.equipment{
+    background-color: #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.equipment:hover{
+    box-shadow: 0px 0px 10px 10px #f3f3f3;
+    background-color: white;
+}
+/*online course*/
+
+.online-course .card{
+    box-shadow: 10px 0px 20px 10px #f3f3f3;
+    border: none;
+    border-radius: 10px;
+}
+/* Student review */
+hr{
+    height: 4px;
+    width: 200px;
+    background-image: linear-gradient(45deg, yellow, rgb(255, 96, 96));
+    position: relative;
+    bottom: 40px;
+    border-radius: 30%;
+}
+
+/* footer */
+footer .list-group{
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: aqua;
+}
